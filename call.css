@@ -1,0 +1,86 @@
+.page-1 {
+    background: black;
+    color: white;
+    padding: 7rem;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+    margin-top: -5rem;
+}
+.header h2 {
+    font-size: 2rem;
+}
+.header .button button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+.header .button button:hover {
+    background: transparent;
+    color: white;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text h2 {
+    font-size: 3rem;
+}
+.text p {
+    font-size: 1.25rem;
+    border: none;
+    background: orange;
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+
+.page-2 {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 3rem;
+}
+
+.text-2 h3 {
+    font-size: 2rem;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+.image {
+    width: 4rem;
+    height: auto;
+    margin-left: 5rem;
+}
+.img-box img {
+    width: 14rem;
+}
+
+.img-box  {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 1rem;
+    width: 25rem;
+}
+.img-box p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+button {
+    height: 2rem;
+    width: 20rem;
+}
